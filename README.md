@@ -1,8 +1,8 @@
-- 👋 Hi, I’m @BorisGuo6
-- 👀 I’m interested in C#/C++/Python/Rust
-- 🌱 I’m currently learning STM32/SLAM/ROS
-- 💞️ I’m looking to collaborate on Embedded & My Robot 
-- 📫 How to reach me @501295806QQ
+- 👋 Hi, I’m @BorisGuo6, a passionate developer and robotics enthusiast.
+- 👀 My primary interests lie in creating true robotic life, pushing the boundaries of what’s possible with machines.
+- 🌱 I’m diving into 🤖robot learning and 🦾dexterous manipulation for robotics projects.
+- 💞️ I’m open to collaborations on robotics-related projects.
+- 📫 Feel free to reach me at borisguo6@gmail.com.
 
 <!---
 BorisGuo6/BorisGuo6 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
