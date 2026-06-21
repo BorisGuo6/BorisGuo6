@@ -2,7 +2,7 @@
 
 <!-- ===================== HEADER ===================== -->
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=900&color=4895EF&center=true&vCenter=true&random=false&width=720&height=72&lines=Hi%2C+I'm+Boris+(Jingxiang+Guo)+%F0%9F%91%8B;PhD+Student+%40+NUS+%C2%B7+LV-Lab;Robot+Learning+%C3%97+Dexterous+Manipulation;Building+embodied+agents+for+the+real+world)](https://jingxiangguo.com)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=900&color=4895EF&center=true&vCenter=true&random=false&width=900&height=70&lines=Hi%2C+I'm+Boris+(Jingxiang+Guo)+%F0%9F%91%8B;PhD+Student+%40+NUS+%C2%B7+LV-Lab;Robot+Learning+%C3%97+Dexterous+Manipulation;Building+embodied+agents+for+the+real+world)](https://jingxiangguo.com)
 
 <a href="https://jingxiangguo.com"><img src="https://img.shields.io/badge/Website-jingxiangguo.com-4895EF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"/></a>
 <a href="https://scholar.google.com/citations?user=JEjiaq0AAAAJ"><img src="https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar"/></a>
