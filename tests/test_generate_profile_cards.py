@@ -8,9 +8,10 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 from generate_profile_cards import (  # noqa: E402
+    ContributionActivity,
     ProfileStats,
-    fetch_language_totals,
     language_color,
+    render_contribution_card,
     render_languages_card,
     render_stats_card,
 )
@@ -41,6 +42,25 @@ class ProfileCardTests(unittest.TestCase):
 
     def test_fallback_language_color_is_deterministic(self):
         self.assertEqual(language_color("UnlistedLanguage"), language_color("UnlistedLanguage"))
+
+    def test_contribution_card_is_valid_svg(self):
+        card = render_contribution_card(
+            "BorisGuo6",
+            ContributionActivity(
+                total=365,
+                followers=8,
+                commits=240,
+                pull_requests=32,
+                issues=14,
+                reviews=79,
+            ),
+        )
+
+        ET.fromstring(card)
+
+        self.assertIn("Commits", card)
+        self.assertIn("Pull requests", card)
+        self.assertIn("Code reviews", card)
 
 
 if __name__ == "__main__":

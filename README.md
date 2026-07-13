@@ -88,7 +88,8 @@ class Boris:
 <img width="49%" src="./assets/profile/github-stats.svg" alt="GitHub Stats"/>
 <img width="49%" src="./assets/profile/top-languages.svg" alt="Top Languages"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=BorisGuo6&hide_border=true&theme=tokyonight&ring=4895EF&fire=4895EF&currStreakLabel=4895EF" alt="GitHub Streak"/>
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=BorisGuo6&hide_border=true&theme=tokyonight&ring=4895EF&fire=4895EF&currStreakLabel=4895EF" alt="GitHub Streak"/>
+<img width="49%" src="./assets/profile/contribution-mix.svg" alt="Contribution Mix"/>
 
 </div>
 

@@ -38,7 +38,7 @@ jobs:
       - name: Commit refreshed cards
         run: |
           git diff --check
-          git add assets/profile/github-stats.svg assets/profile/top-languages.svg
+          git add assets/profile/github-stats.svg assets/profile/top-languages.svg assets/profile/contribution-mix.svg
           if git diff --cached --quiet; then
             echo "Profile cards are already current"
             exit 0

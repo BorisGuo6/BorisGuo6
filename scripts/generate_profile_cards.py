@@ -71,6 +71,16 @@ class ProfileStats:
     followers: int
 
 
+@dataclass(frozen=True)
+class ContributionActivity:
+    total: int
+    followers: int
+    commits: int
+    pull_requests: int
+    issues: int
+    reviews: int
+
+
 def api_request(
     url: str,
     token: str,
@@ -116,7 +126,7 @@ def fetch_repositories(username: str, token: str) -> list[dict[str, Any]]:
         page += 1
 
 
-def fetch_contribution_stats(username: str, token: str) -> tuple[int, int]:
+def fetch_contribution_stats(username: str, token: str) -> ContributionActivity:
     now = datetime.now(timezone.utc)
     start = now - timedelta(days=364)
     query = """
@@ -125,6 +135,10 @@ def fetch_contribution_stats(username: str, token: str) -> tuple[int, int]:
           followers { totalCount }
           contributionsCollection(from: $from, to: $to) {
             contributionCalendar { totalContributions }
+            totalCommitContributions
+            totalPullRequestContributions
+            totalIssueContributions
+            totalPullRequestReviewContributions
           }
         }
       }
@@ -146,11 +160,15 @@ def fetch_contribution_stats(username: str, token: str) -> tuple[int, int]:
     user = response.get("data", {}).get("user")
     if not user:
         raise RuntimeError(f"GitHub user not found: {username}")
-    contributions = user["contributionsCollection"]["contributionCalendar"][
-        "totalContributions"
-    ]
-    followers = user["followers"]["totalCount"]
-    return int(contributions), int(followers)
+    contributions = user["contributionsCollection"]
+    return ContributionActivity(
+        total=int(contributions["contributionCalendar"]["totalContributions"]),
+        followers=int(user["followers"]["totalCount"]),
+        commits=int(contributions["totalCommitContributions"]),
+        pull_requests=int(contributions["totalPullRequestContributions"]),
+        issues=int(contributions["totalIssueContributions"]),
+        reviews=int(contributions["totalPullRequestReviewContributions"]),
+    )
 
 
 def fetch_language_totals(
@@ -257,6 +275,24 @@ def render_languages_card(username: str, totals: dict[str, int]) -> str:
     )
 
 
+def render_contribution_card(username: str, activity: ContributionActivity) -> str:
+    metrics = (
+        ("Commits", activity.commits, 24, 65),
+        ("Pull requests", activity.pull_requests, 258, 65),
+        ("Issues opened", activity.issues, 24, 120),
+        ("Code reviews", activity.reviews, 258, 120),
+    )
+    rows = []
+    for label, value, x, y in metrics:
+        rows.append(f'  <text x="{x}" y="{y}" class="label">{html.escape(label)}</text>')
+        rows.append(f'  <text x="{x}" y="{y + 26}" class="value">{value:,}</text>')
+    return svg_shell(
+        f"{username}'s Contribution Mix",
+        "\n".join(rows),
+        "Generated from visible GitHub contribution activity over the last 365 days.",
+    )
+
+
 def write_if_changed(path: Path, content: str) -> bool:
     if path.exists() and path.read_text(encoding="utf-8") == content:
         return False
@@ -277,13 +313,13 @@ def main() -> int:
         return 2
 
     repositories = fetch_repositories(args.username, token)
-    contributions, followers = fetch_contribution_stats(args.username, token)
+    activity = fetch_contribution_stats(args.username, token)
     language_totals = fetch_language_totals(repositories, token)
     stats = ProfileStats(
         stars=sum(int(repository.get("stargazers_count", 0)) for repository in repositories),
-        contributions=contributions,
+        contributions=activity.total,
         public_repositories=len(repositories),
-        followers=followers,
+        followers=activity.followers,
     )
 
     changed = []
@@ -296,6 +332,11 @@ def main() -> int:
         render_languages_card(args.username, language_totals),
     ):
         changed.append("top-languages.svg")
+    if write_if_changed(
+        args.output_dir / "contribution-mix.svg",
+        render_contribution_card(args.username, activity),
+    ):
+        changed.append("contribution-mix.svg")
 
     if changed:
         print(f"Updated: {', '.join(changed)}")
