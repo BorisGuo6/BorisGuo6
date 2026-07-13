@@ -85,8 +85,8 @@ class Boris:
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=BorisGuo6&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&theme=tokyonight&title_color=4895EF&icon_color=4895EF" alt="GitHub Stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BorisGuo6&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&title_color=4895EF" alt="Top Languages"/>
+<img width="49%" src="./assets/profile/github-stats.svg" alt="GitHub Stats"/>
+<img width="49%" src="./assets/profile/top-languages.svg" alt="Top Languages"/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=BorisGuo6&hide_border=true&theme=tokyonight&ring=4895EF&fire=4895EF&currStreakLabel=4895EF" alt="GitHub Streak"/>
 

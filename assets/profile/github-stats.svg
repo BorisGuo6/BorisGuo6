@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-labelledby="title desc">
+  <title id="title">BorisGuo6&#x27;s GitHub Stats</title>
+  <desc id="desc">Generated from GitHub API data; contributions use a rolling 365-day window.</desc>
+  <style>
+    .title { fill: #4895EF; font: 600 18px -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif; }
+    .label { fill: #8B949E; font: 400 12px -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif; }
+    .value { fill: #C9D1D9; font: 600 20px -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif; }
+    .legend { fill: #C9D1D9; font: 500 12px -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif; }
+    .footer { fill: #6E7681; font: 400 10px -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif; }
+  </style>
+  <rect x="0.5" y="0.5" width="494" height="194" rx="6" fill="#0D1117" stroke="#30363D"/>
+  <text x="24" y="32" class="title">BorisGuo6&#x27;s GitHub Stats</text>
+  <text x="24" y="65" class="label">Total stars earned</text>
+  <text x="24" y="91" class="value">6</text>
+  <text x="258" y="65" class="label">Contributions (365 days)</text>
+  <text x="258" y="91" class="value">2,243</text>
+  <text x="24" y="120" class="label">Public repositories</text>
+  <text x="24" y="146" class="value">221</text>
+  <text x="258" y="120" class="label">Followers</text>
+  <text x="258" y="146" class="value">40</text>
+  <text x="24" y="178" class="footer">Generated from GitHub API data; contributions use a rolling 365-day window.</text>
+</svg>
