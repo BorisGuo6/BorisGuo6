@@ -10,24 +10,24 @@
   </style>
   <rect x="0.5" y="0.5" width="494" height="194" rx="6" fill="#0D1117" stroke="#30363D"/>
   <text x="24" y="32" class="title">BorisGuo6&#x27;s Top Languages</text>
-  <rect x="24.00" y="51" width="220.00" height="10" fill="#f1e05a"/>
-  <rect x="244.00" y="51" width="92.78" height="10" fill="#3572A5"/>
-  <rect x="336.78" y="51" width="68.42" height="10" fill="#DA5B0B"/>
-  <rect x="405.20" y="51" width="43.56" height="10" fill="#e34c26"/>
-  <rect x="448.76" y="51" width="9.29" height="10" fill="#427819"/>
-  <rect x="458.05" y="51" width="5.99" height="10" fill="#563d7c"/>
-  <rect x="464.05" y="51" width="4.51" height="10" fill="#89e051"/>
-  <rect x="468.55" y="51" width="2.45" height="10" fill="#FB8500"/>
+  <rect x="24.00" y="51" width="232.61" height="10" fill="#f1e05a"/>
+  <rect x="256.61" y="51" width="87.62" height="10" fill="#3572A5"/>
+  <rect x="344.24" y="51" width="64.62" height="10" fill="#DA5B0B"/>
+  <rect x="408.86" y="51" width="41.14" height="10" fill="#e34c26"/>
+  <rect x="449.99" y="51" width="8.78" height="10" fill="#427819"/>
+  <rect x="458.77" y="51" width="5.66" height="10" fill="#563d7c"/>
+  <rect x="464.43" y="51" width="4.26" height="10" fill="#89e051"/>
+  <rect x="468.69" y="51" width="2.31" height="10" fill="#FB8500"/>
   <circle cx="29" cy="82" r="5" fill="#f1e05a"/>
-  <text x="40" y="86" class="legend">JavaScript 49.2%</text>
+  <text x="40" y="86" class="legend">JavaScript 52.0%</text>
   <circle cx="263" cy="82" r="5" fill="#3572A5"/>
-  <text x="274" y="86" class="legend">Python 20.8%</text>
+  <text x="274" y="86" class="legend">Python 19.6%</text>
   <circle cx="29" cy="102" r="5" fill="#DA5B0B"/>
-  <text x="40" y="106" class="legend">Jupyter Notebook 15.3%</text>
+  <text x="40" y="106" class="legend">Jupyter Notebook 14.5%</text>
   <circle cx="263" cy="102" r="5" fill="#e34c26"/>
-  <text x="274" y="106" class="legend">HTML 9.7%</text>
+  <text x="274" y="106" class="legend">HTML 9.2%</text>
   <circle cx="29" cy="122" r="5" fill="#427819"/>
-  <text x="40" y="126" class="legend">Makefile 2.1%</text>
+  <text x="40" y="126" class="legend">Makefile 2.0%</text>
   <circle cx="263" cy="122" r="5" fill="#563d7c"/>
   <text x="274" y="126" class="legend">CSS 1.3%</text>
   <circle cx="29" cy="142" r="5" fill="#89e051"/>
