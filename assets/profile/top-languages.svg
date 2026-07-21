@@ -10,18 +10,18 @@
   </style>
   <rect x="0.5" y="0.5" width="494" height="194" rx="6" fill="#0D1117" stroke="#30363D"/>
   <text x="24" y="32" class="title">BorisGuo6&#x27;s Top Languages</text>
-  <rect x="24.00" y="51" width="232.67" height="10" fill="#f1e05a"/>
-  <rect x="256.67" y="51" width="87.58" height="10" fill="#3572A5"/>
-  <rect x="344.25" y="51" width="64.58" height="10" fill="#DA5B0B"/>
-  <rect x="408.83" y="51" width="41.16" height="10" fill="#e34c26"/>
-  <rect x="449.99" y="51" width="8.77" height="10" fill="#427819"/>
-  <rect x="458.76" y="51" width="5.67" height="10" fill="#563d7c"/>
-  <rect x="464.44" y="51" width="4.25" height="10" fill="#89e051"/>
-  <rect x="468.69" y="51" width="2.31" height="10" fill="#FB8500"/>
+  <rect x="24.00" y="51" width="233.10" height="10" fill="#f1e05a"/>
+  <rect x="257.10" y="51" width="87.27" height="10" fill="#3572A5"/>
+  <rect x="344.38" y="51" width="64.36" height="10" fill="#DA5B0B"/>
+  <rect x="408.74" y="51" width="41.29" height="10" fill="#e34c26"/>
+  <rect x="450.03" y="51" width="8.74" height="10" fill="#427819"/>
+  <rect x="458.77" y="51" width="5.68" height="10" fill="#563d7c"/>
+  <rect x="464.46" y="51" width="4.24" height="10" fill="#89e051"/>
+  <rect x="468.70" y="51" width="2.30" height="10" fill="#FB8500"/>
   <circle cx="29" cy="82" r="5" fill="#f1e05a"/>
   <text x="40" y="86" class="legend">JavaScript 52.1%</text>
   <circle cx="263" cy="82" r="5" fill="#3572A5"/>
-  <text x="274" y="86" class="legend">Python 19.6%</text>
+  <text x="274" y="86" class="legend">Python 19.5%</text>
   <circle cx="29" cy="102" r="5" fill="#DA5B0B"/>
   <text x="40" y="106" class="legend">Jupyter Notebook 14.4%</text>
   <circle cx="263" cy="102" r="5" fill="#e34c26"/>
@@ -31,7 +31,7 @@
   <circle cx="263" cy="122" r="5" fill="#563d7c"/>
   <text x="274" y="126" class="legend">CSS 1.3%</text>
   <circle cx="29" cy="142" r="5" fill="#89e051"/>
-  <text x="40" y="146" class="legend">Shell 1.0%</text>
+  <text x="40" y="146" class="legend">Shell 0.9%</text>
   <circle cx="263" cy="142" r="5" fill="#FB8500"/>
   <text x="274" y="146" class="legend">CMake 0.5%</text>
   <text x="24" y="178" class="footer">Calculated by byte count across public, non-fork repositories.</text>
