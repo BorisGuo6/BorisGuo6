@@ -10,11 +10,11 @@
   </style>
   <rect x="0.5" y="0.5" width="494" height="194" rx="6" fill="#0D1117" stroke="#30363D"/>
   <text x="24" y="32" class="title">BorisGuo6&#x27;s Top Languages</text>
-  <rect x="24.00" y="51" width="233.60" height="10" fill="#f1e05a"/>
-  <rect x="257.60" y="51" width="87.04" height="10" fill="#3572A5"/>
-  <rect x="344.64" y="51" width="64.19" height="10" fill="#DA5B0B"/>
-  <rect x="408.84" y="51" width="41.21" height="10" fill="#e34c26"/>
-  <rect x="450.05" y="51" width="8.72" height="10" fill="#427819"/>
+  <rect x="24.00" y="51" width="233.67" height="10" fill="#f1e05a"/>
+  <rect x="257.67" y="51" width="87.02" height="10" fill="#3572A5"/>
+  <rect x="344.68" y="51" width="64.17" height="10" fill="#DA5B0B"/>
+  <rect x="408.86" y="51" width="41.20" height="10" fill="#e34c26"/>
+  <rect x="450.06" y="51" width="8.72" height="10" fill="#427819"/>
   <rect x="458.77" y="51" width="5.71" height="10" fill="#563d7c"/>
   <rect x="464.48" y="51" width="4.23" height="10" fill="#89e051"/>
   <rect x="468.70" y="51" width="2.30" height="10" fill="#FB8500"/>
@@ -27,7 +27,7 @@
   <circle cx="263" cy="102" r="5" fill="#e34c26"/>
   <text x="274" y="106" class="legend">HTML 9.2%</text>
   <circle cx="29" cy="122" r="5" fill="#427819"/>
-  <text x="40" y="126" class="legend">Makefile 2.0%</text>
+  <text x="40" y="126" class="legend">Makefile 1.9%</text>
   <circle cx="263" cy="122" r="5" fill="#563d7c"/>
   <text x="274" y="126" class="legend">CSS 1.3%</text>
   <circle cx="29" cy="142" r="5" fill="#89e051"/>
