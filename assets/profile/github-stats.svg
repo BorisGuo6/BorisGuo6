@@ -17,6 +17,6 @@
   <text x="24" y="120" class="label">Public repositories</text>
   <text x="24" y="146" class="value">243</text>
   <text x="258" y="120" class="label">Followers</text>
-  <text x="258" y="146" class="value">47</text>
+  <text x="258" y="146" class="value">46</text>
   <text x="24" y="178" class="footer">Generated from GitHub API data; contributions use a rolling 365-day window.</text>
 </svg>
