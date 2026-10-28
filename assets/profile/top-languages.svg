@@ -10,16 +10,16 @@
   </style>
   <rect x="0.5" y="0.5" width="494" height="194" rx="6" fill="#0D1117" stroke="#30363D"/>
   <text x="24" y="32" class="title">BorisGuo6&#x27;s Top Languages</text>
-  <rect x="24.00" y="51" width="232.22" height="10" fill="#f1e05a"/>
-  <rect x="256.22" y="51" width="90.86" height="10" fill="#3572A5"/>
-  <rect x="347.08" y="51" width="62.93" height="10" fill="#DA5B0B"/>
-  <rect x="410.01" y="51" width="40.42" height="10" fill="#e34c26"/>
-  <rect x="450.42" y="51" width="8.55" height="10" fill="#427819"/>
-  <rect x="458.97" y="51" width="5.63" height="10" fill="#563d7c"/>
-  <rect x="464.60" y="51" width="4.15" height="10" fill="#89e051"/>
+  <rect x="24.00" y="51" width="232.36" height="10" fill="#f1e05a"/>
+  <rect x="256.36" y="51" width="90.80" height="10" fill="#3572A5"/>
+  <rect x="347.16" y="51" width="62.89" height="10" fill="#DA5B0B"/>
+  <rect x="410.05" y="51" width="40.39" height="10" fill="#e34c26"/>
+  <rect x="450.44" y="51" width="8.54" height="10" fill="#427819"/>
+  <rect x="458.98" y="51" width="5.63" height="10" fill="#563d7c"/>
+  <rect x="464.61" y="51" width="4.14" height="10" fill="#89e051"/>
   <rect x="468.75" y="51" width="2.25" height="10" fill="#FB8500"/>
   <circle cx="29" cy="82" r="5" fill="#f1e05a"/>
-  <text x="40" y="86" class="legend">JavaScript 51.9%</text>
+  <text x="40" y="86" class="legend">JavaScript 52.0%</text>
   <circle cx="263" cy="82" r="5" fill="#3572A5"/>
   <text x="274" y="86" class="legend">Python 20.3%</text>
   <circle cx="29" cy="102" r="5" fill="#DA5B0B"/>
